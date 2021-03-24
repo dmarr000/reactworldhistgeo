@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.navbarTitle {
+  color: #4A2D3E;
+  font-size: 28px;
+  text-align: left;
+}
+
+.gradient {
+  margin: 0px;
+  max-width: 2000px;
+  background-image: linear-gradient(to right, #324376, #5398BE, #75A2A5, #8daa91);
+}
+
+.navbar {
+  color: white;
+}
