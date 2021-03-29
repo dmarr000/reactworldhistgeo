@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -36,6 +36,17 @@
     transform: rotate(360deg);
   }
 }
+*/
+
+body {
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color:  #324376;
+}
 
 .navbarTitle {
   color: #4A2D3E;
@@ -49,6 +60,88 @@
   background-image: linear-gradient(to right, #324376, #5398BE, #75A2A5, #8daa91);
 }
 
-.navbar {
+.Navbar {
   color: white;
+}
+
+.nav-link {
+  color: white;
+  margin-bottom: -5px;
+/*  padding: 14px;*/
+}
+
+.nav-link:hover {
+  color: #4A2D3E;
+  font-weight: bold;
+}
+
+.homeImg {
+  padding: 0px;
+  border-radius: 50px;
+/*     max-height: 550px;
+      max-width: 450px;    */
+}
+
+.homeImg:hover {
+  transform: scale(1.1);
+}
+
+.carouselCaptions {
+  color: white;
+  background-color: black;
+  opacity: .6;
+  border-radius: 20px;
+  padding: 0px 30px;
+  height:fit-content;
+  margin:0px;
+}
+
+.capDiv {
+  color:white;
+  top: 0px;
+  left: 40px;
+  height:fit-content;
+  font: bold 15px tahoma;
+  background-color: black;
+  opacity: .7;
+  border-radius: 20px;
+  padding: 5px 0px;
+  /*max-width: 400px;*/
+}
+
+#homeContainer {
+      position: relative;
+      color: black;
+}
+
+#signIn:hover {
+  color: #324376;
+}
+
+#signIn {
+  color: white;
+  font: bold 17px tahoma;
+  float: right;
+}
+
+#createAcct {
+  color: #324376;
+  font: bold 17px tahoma;
+  float: right;
+}
+
+#compassWest {
+  width: 40%;
+  opacity: .6;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+#compassEast {
+  width: 40%;
+  opacity: .6;
+  border-radius: 10px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
