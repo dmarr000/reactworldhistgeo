@@ -16,7 +16,7 @@ const ExploreTimeline = [
         date: 1500,
         category: {
             country: 'England',
-            color: '#018f69'
+            color: '#4A2D3E'
         },
         link: {
             url: 'www.google.com',
