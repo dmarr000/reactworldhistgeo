@@ -8,7 +8,7 @@ const ExploreTimeline = [
         },
         link: {
             url: 'www.google.com',
-            text: 'blah, blah'
+            text: 'URL text'
         }
     },
     {
@@ -20,8 +20,20 @@ const ExploreTimeline = [
         },
         link: {
             url: 'www.google.com',
-            text: 'blah, blah'
+            text: 'URL text'
         }
+    },
+        {
+            text: 'Sample 3',
+            date: 1503,
+            category: {
+                country: 'France',
+                color: '#324376'
+            },
+            link: {
+                url: 'www.google.com',
+                text: 'URL text'
+            }    
     }
 ];
 

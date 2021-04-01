@@ -7,7 +7,7 @@ class App extends Component {
   render () {
    return (
     <div className="App">
-      <header className="container gradient">
+      <header className="gradient">
         <div className="row">
             <div className="col-2 navbar-brand mr-0" aria-label="WorldHistGeo"><a href="#"><img className="d-block" width="60"
                         height="60" focusable="false" alt='Website Icon'>
@@ -26,9 +26,10 @@ class App extends Component {
                     <li className="nav-item">
                       <a className="nav-link" href="#">Partners</a></li>
                 </ul>
-            </div>
-            <a id="signIn" className="nav-link ml-auto mb-0" role="button" data-toggle="modal" data-target="#loginModal">
+                <a id="signIn" className="nav-link ml-auto mb-0" role="button" data-toggle="modal" data-target="#loginModal">
                 <i className="fa fa-sign-in"></i> Sign-in</a>
+            </div>
+
       </header>
     </div>
     );
@@ -39,18 +40,3 @@ class App extends Component {
 
 export default App;
 
-/* old app div: trash soon... 
-<header className="App-header">
-<img src={logo} className="App-logo" alt="logo" />
-<p>
-  Edit <code>src/App.js</code> and save to reload.
-</p>
-<a
-  className="App-link"
-  href="https://reactjs.org"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Learn React
-</a>
-</header>*/

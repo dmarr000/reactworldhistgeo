@@ -12,8 +12,4 @@ code {
     monospace;
 }
 
-.gradient {
-  margin: 0px;
-  max-width: 2000px;
-  background-image: linear-gradient(to right, #324376, #5398BE, #75A2A5, #8daa91);
-}
+
